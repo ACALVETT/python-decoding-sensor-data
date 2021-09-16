@@ -29,6 +29,6 @@ print("House sensor records for date {} = {}".format(test_date.strftime("%m/%d/%
 # Module 5 code here:
 
 temperature_data = TemperatureData(data)
-recs = get_data_by_area("rec_area=test_area)
+recs = get_data_by_area("rec_area=test_area")
 print("\nHouse Temperature sensor records for area {} = {}".format(test_area, len(recs)))
 print("\tMaximum: {0}, Minimum: {1} temperatures".format(max(recs), min(recs)))
